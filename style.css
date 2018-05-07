@@ -637,6 +637,7 @@ ol {
 }
 
 .slide-content {
+	max-width: 690px;
 	margin-left: 350px;
 	margin-bottom: 50px;
 	padding-left: 190px;

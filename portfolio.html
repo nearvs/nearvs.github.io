@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/animate.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 
@@ -46,8 +47,8 @@
 				<li><a href="home.html">Home</a></li>
 				<li><a href="about.html">About us</a></li>
 				<li><a href="service.html">Services</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li class="active"><a href="contact.html">Contact</a></li>
+				<li class="active"><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -55,44 +56,53 @@
 
 
 	<!-- Page header section start -->
-	<section class="page-header-section set-bg" data-setbg="img/header-bg-2.jpg">
+	<section class="page-header-section set-bg" data-setbg="img/header-bg.jpg">
 		<div class="container">
-			<h1 class="header-title">Contact<span>.</span></h1>
+			<h1 class="header-title">Portfolio<span>.</span></h1>
 		</div>
 	</section>
 	<!-- Page header section end -->
 
 
 	<!-- Page section start -->
-	<section class="page-section pt100">
-		<div class="container pb100">
-			<div class="section-title pt-5">
-				<h1>Get in touch</h1>
-			</div>
-			<div class="row">
-				<div class="col-lg-3 contact-info mb-5 mb-lg-0">
-					<p>Address: 1481 Creekside Lane Avila Beach, CA 93424 </p>
-					<p>Phone: +53 345 7953 32453</p>
-					<p>Email: yourmail@gmail.com</p>
-					<div class="cf-social">
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-9">
-					<form class="contact-form">
-						<input type="text" placeholder="Enter your name">
-						<input type="text" placeholder="Enter your email address">
-						<textarea placeholder="Message ..."></textarea>
-						<button class="site-btn sb-dark">Send</button>
-					</form>
-				</div>
+	<div class="page-section spad">
+		<div class="container">
+			<!-- portfolio filter menu -->
+			<ul class="portfolio-filter">
+				<li class="filter" data-filter="*">All</li>
+				<li class="filter" data-filter=".photo">Photography</li>
+				<li class="filter" data-filter=".design">Design</li>
+				<li class="filter" data-filter=".iden">Identity</li>
+				<li class="filter" data-filter=".corp">Corporate</li>
+				<li class="filter" data-filter=".uxui">UI/UX</li>
+			</ul>
+		</div>
+		<!-- portfolio items -->
+		<div class="portfolio-warp spad">
+			<div id="portfolio">
+				<div class="grid-sizer"></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg grid-wide photo" data-setbg="img/portfolio/1.jpg"><a class="img-popup" href="img/portfolio/1.jpg"></a></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg design corp" data-setbg="img/portfolio/2.jpg"><a class="img-popup" href="img/portfolio/2.jpg"></a></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg iden photo uxui" data-setbg="img/portfolio/3.jpg"><a class="img-popup" href="img/portfolio/3.jpg"></a></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg corp design" data-setbg="img/portfolio/4.jpg"><a class="img-popup" href="img/portfolio/4.jpg"></a></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg uxui iden" data-setbg="img/portfolio/5.jpg"><a class="img-popup" href="img/portfolio/5.jpg"></a></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg grid-long design corp" data-setbg="img/portfolio/6.jpg"><a class="img-popup" href="img/portfolio/6.jpg"></a></div>
 			</div>
 		</div>
-		<div class="map-area" id="map-canvas"></div>
-	</section>
+		<div class="container">
+			<div class="pagination">
+				<a href="#">01</a>
+				<a href="" class="active">02</a>
+				<a href="">03</a>
+			</div>
+		</div>
+	</div>
 	<!-- Page section end -->
 
 
@@ -166,10 +176,5 @@
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/main.js"></script>
-	
-	<!-- load for map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
-	<script src="js/map.js"></script>
-
 </body>
 </html>
