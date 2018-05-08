@@ -2,7 +2,7 @@
 ------------------------------------
   Arcade - Architecture
   Version: 1.0
- ------------------------------------ 
+ ------------------------------------
  ====================================*/
 
 
@@ -1862,6 +1862,9 @@ ol {
 	}
 	.portfolio-warp .grid-sizer {
 		width: 50%;
+	}
+	.portfolio-warp .grid-sizer02 {
+		width: 30%;
 	}
 	.solid-service-box {
 		margin-bottom: 30px;
