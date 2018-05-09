@@ -1,7 +1,7 @@
 function initialize() {
 	var myOptions = {
 		zoom: 15,
-		center: new google.maps.LatLng(51.488966, -0.096777), //change the coordinates
+		center: new google.maps.LatLng(41.180257, -8.583553), //change the coordinates
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		scrollwheel: false,
 		mapTypeControl: false,
