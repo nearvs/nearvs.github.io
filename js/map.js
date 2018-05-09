@@ -11,7 +11,7 @@ function initialize() {
 	var map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
 	var marker = new google.maps.Marker({
 		map: map,
-		position: new google.maps.LatLng(51.488966, -0.096777) //change the coordinates
+		position: new google.maps.LatLng(41.180257, -8.583553) //change the coordinates
 	});
 	google.maps.event.addListener(marker, "click", function() {
 		infowindow.open(map, marker);
