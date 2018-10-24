@@ -155,7 +155,8 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
 		color: inherit;
-		text-decoration: none;
+		text-decoration: none !important;
+		border-bottom-color: transparent;
 	}
 
 		a:hover {
@@ -1771,6 +1772,21 @@ input, select, textarea {
 
 /* Section/Article */
 
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 	section.special, article.special {
 		text-align: center;
 	}
@@ -3121,6 +3137,7 @@ input, select, textarea {
 		max-width: 100%;
 		height: 55%;
 		width: 55%\9; /* ie8 */
+		text-decoration: none;
 	}
 
 
@@ -3131,6 +3148,7 @@ input, select, textarea {
 			height: inherit;
 			line-height: inherit;
 			padding: 0.5em 1.5em;
+			text-decoration: none;
 		}
 
 			#header .logo strong {
@@ -3144,6 +3162,7 @@ input, select, textarea {
 				line-height: 1.65em;
 				margin-right: 0.325em;
 				padding: 1.5 0.125em 0 0.375em;
+				text-decoration: none;
 			}
 
 			#header .logo:hover strong {
